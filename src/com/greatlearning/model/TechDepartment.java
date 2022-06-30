@@ -3,7 +3,7 @@ package com.greatlearning.model;
 public class TechDepartment extends SuperDepartment{
     @Override
     public String departmentName() {
-        return "Tech Department ";
+        return "Tech Department";
     }
 
     @Override
@@ -15,7 +15,8 @@ public class TechDepartment extends SuperDepartment{
     public String getWorkDeadline() {
         return "Complete by EOD";
     }
+
     public String getTechStackInformation(){
-        return "core Java";
+        return "Core Java";
     }
 }

@@ -3,7 +3,7 @@ package com.greatlearning.model;
 public class HRDepartment extends SuperDepartment{
     @Override
     public String departmentName() {
-        return " HR Department ";
+        return "HR Department";
     }
 
     @Override
@@ -15,6 +15,7 @@ public class HRDepartment extends SuperDepartment{
     public String getWorkDeadline() {
         return "Complete by EOD";
     }
+
     public String doActivity(){
         return "team Lunch";
     }
